@@ -1,0 +1,36 @@
+{
+    "Bot": {
+        "TOKEN": "",
+        "PREFIX": ""
+    },
+    "MongoDB": {
+        "MONGO_URL": ""
+    },
+    "Emoji": {
+        "Check_Emoji_id": "",
+        "Wrong_Emoji_id": ""
+    },
+    "Role": {
+        "SUPPORTER_ROLE": ""
+    },
+    "GUILD_ID": "",
+    "MANAGER_ID": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ]
+}

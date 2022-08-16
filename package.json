@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "discord-pagination-advanced": "^1.1.7",
+    "discord.js": "^13.9.0",
+    "fs": "^0.0.1-security",
+    "mongo-xlsx": "^1.0.12",
+    "mongoose": "^6.5.2"
+  }
+}
