@@ -4,7 +4,8 @@
         "PREFIX": ""
     },
     "MongoDB": {
-        "MONGO_URL": ""
+        "MONGO_URL": "",
+        "COLLECTION_NAME" : ""
     },
     "Emoji": {
         "Check_Emoji_id": "",
