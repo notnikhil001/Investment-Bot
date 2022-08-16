@@ -55,3 +55,13 @@ Bot is licensed under the MIT License. See the file [LICENSE](https://github.com
    ![User Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/user.png?raw=true)
    ![Uptime Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/uptime.png?raw=true)
    ![Me Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/me.png?raw=true)
+
+
+## Steps To Start Bot 
+ 1. Clone The Repo using `git clone https://github.com/HarshalCODE/Investment-Bot.git`.
+ 2. Get Discord Bot Token From [Bot Token Docs](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
+ 3. Put All Values in [sampConfig.json](https://github.com/HarshalCODE/Investment-Bot/blob/master/samConfig.json) file.
+ 4. Get Mongodb Url From [Mongodb Database](https://account.mongodb.com/account).
+ 5. Change Name From `samConfig.json` to `Config.json`
+ 6. Run `npm install` To Download All packages.
+ 7. To Start Bot Run`node Index.js`.
