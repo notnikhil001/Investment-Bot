@@ -1,10 +1,9 @@
+
 <h1 align="center">
   <br>
   Discord Bot
   <br>
 </h1>
-
-<h3 align=center>A Investment bot built in Javascript with 💖 By Harshal </h3>
 
 ## ⭐ Feel Free To Fork And Star The Repo It Encourage Me To Make This Type Of Projects
 
@@ -46,14 +45,23 @@ Bot is licensed under the MIT License. See the file [LICENSE](https://github.com
 
 
 ## 🆘 Commands 
+ ## Add Investment To MongoDb
    ![Add Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/add.png?raw=true) 
+ ## Delete Investment
    ![Delete Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/delete.png?raw=true)
+ ## Export To Excel Sheet
    ![Export Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/export.png?raw=true)
+ ## Listed Know No Of Invesment Recorded
    ![Listed Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/listed.png?raw=true)
+ ## Ping To Know Bot Is Dead Or Live
    ![Ping Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/ping.png?raw=true)
+ ## Payment List 
    ![Payment Methods Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/pm.png?raw=true)
+ ## To Know User Investment
    ![User Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/user.png?raw=true)
+ ## Bot Uptime
    ![Uptime Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/uptime.png?raw=true)
+ ## For User To Know There Remaining Days
    ![Me Command](https://github.com/HarshalCODE/Investment-Bot/blob/master/github/me.png?raw=true)
 
 
