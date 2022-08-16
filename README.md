@@ -71,5 +71,6 @@ Bot is licensed under the MIT License. See the file [LICENSE](https://github.com
  3. Put All Values in [sampConfig.json](https://github.com/HarshalCODE/Investment-Bot/blob/master/samConfig.json) file.
  4. Get Mongodb Url From [Mongodb Database](https://account.mongodb.com/account).
  5. Change Name From `samConfig.json` to `Config.json`
- 6. Run `npm install` To Download All packages.
- 7. To Start Bot Run`node Index.js`.
+ 6. To Access Admin Command Put User id in Config.json
+ 7. Run `npm install` To Download All packages.
+ 8. To Start Bot Run`node Index.js`.
