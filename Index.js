@@ -48,9 +48,9 @@ const Schema = new mongoose.Schema({
     "Paiddate": String,
     "ReturnAmount": Number
 
-}, { collection: Config.MongoDB.COLLECTION_NAME })
+}, { collection: Config.MongoDB.MONGO_COLLECTION })
 //----------------------------------------------------------
-const Kitten = mongoose.model(Config.MongoDB.COLLECTION_NAME, Schema)
+const Kitten = mongoose.model(Config.MongoDB.MONGO_COLLECTION, Schema)
 //-------------------------------------------------------
 client.on("message", async message => {
     const Runner = require('./Runner.js');
