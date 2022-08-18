@@ -14,6 +14,22 @@
         "SUPPORTER_ROLE": ""
     },
     "GUILD_ID": "",
+    "EMOJI_ID": {
+        "BTC": "",
+        "ETH": "",
+        "LTC": "",
+        "SOL": "",
+        "USDT": "",
+        "BINANCE": "",
+        "UPI": "",
+        "normal": "",
+        "admin": "",
+        "del": "",
+        "payment": "",
+        "dance": "",
+        "xcel": "",
+        "list": ""
+    },
     "MANAGER_ID": [
         "",
         "",

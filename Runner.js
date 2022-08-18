@@ -7,7 +7,7 @@ const runner = async (client, message, Config, Kitten) => {
             //-------------------------------------------------------
             if (command === "pm") {
                 const pm = require('./Commands/Investment/Pm.js')
-                pm(client, message)
+                pm(client, message , Config)
             }
             //-------------------------------------------------------
             if (command === 'ping') {

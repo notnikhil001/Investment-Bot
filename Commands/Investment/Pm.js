@@ -1,13 +1,13 @@
 const { MessageEmbed } = require('discord.js')
 //-------------------------------------------------------
-const pm = async (client, message) => {
-    const btc = client.emojis.cache.get('1007972668433240124')
-    const eth = client.emojis.cache.get('1007974605027282954')
-    const ltc = client.emojis.cache.get('1007972778395303938')
-    const sol = client.emojis.cache.get('1007972876495888475')
-    const usdt = client.emojis.cache.get('1007973005307158569')
-    const binance = client.emojis.cache.get('1007973263273627689')
-    const upi = client.emojis.cache.get('1007973571101986927')
+const pm = async (client, message , Config) => {
+    const btc = client.emojis.cache.get(Config.EMOJI_ID.BTC)
+    const eth = client.emojis.cache.get(Config.EMOJI_ID.ETH)
+    const ltc = client.emojis.cache.get(Config.EMOJI_ID.LTC)
+    const sol = client.emojis.cache.get(Config.EMOJI_ID.SOL)
+    const usdt = client.emojis.cache.get(Config.EMOJI_ID.USDT)
+    const binance = client.emojis.cache.get(Config.EMOJI_ID.BINANCE)
+    const upi = client.emojis.cache.get(Config.EMOJI_ID.UPI)
     const embed = new MessageEmbed()
         .setTitle('Investment Payment Id -')
         .addFields(
