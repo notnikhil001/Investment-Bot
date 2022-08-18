@@ -19,12 +19,13 @@ const options = {
 const user = async (client, message, args, Config, Kitten) => {
     const emoji_dinied = client.emojis.cache.get(Config.Emoji.Wrong_Emoji_id)
     const answer = await checker(message, Config, emoji_dinied)
+    const user = message.mentions.users.first()
     if (answer === true) {
         return
     }
     else {
         await Kitten.find({
-            User: message.author.id
+            User: message.user.id
         }).then((result) => {
             if (result == '') {
 
