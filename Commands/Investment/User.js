@@ -25,7 +25,7 @@ const user = async (client, message, args, Config, Kitten) => {
     }
     else {
         await Kitten.find({
-            User: message.user.id
+            User: user.id
         }).then((result) => {
             if (result == '') {
 
