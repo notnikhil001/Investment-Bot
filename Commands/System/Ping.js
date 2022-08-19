@@ -1,5 +1,10 @@
 const ping = async (client, message) => {
-    message.channel.send(`${message.author} **, Pong!! ◉ API Latency => ${client.ws.ping} ms**`)
+    try {
+        message.channel.send(`${message.author} **, Pong!! ◉ API Latency => ${client.ws.ping} ms**`)
+    }
+    catch (err) {
+
+    }
 }
 
 

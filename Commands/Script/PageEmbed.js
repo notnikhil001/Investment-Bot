@@ -1,6 +1,7 @@
 const { MessageEmbed } = require('discord.js')
 
 const pagecreator = function creator(result, no, to) {
+    try{
     const difftohour = Math.ceil((new Date(result.ReturnDate).getTime() - new Date(Date.now()).getTime()) / (1000 * 24 * 3600))
     const embed = new MessageEmbed()
         .setColor('PURPLE')
@@ -15,6 +16,10 @@ const pagecreator = function creator(result, no, to) {
             text: `Id : ${result.Authid} • Page : ${no}/${to}`
         })
     return embed
+}
+catch(err){
+  console.log(err)
+}
 }
 
 
