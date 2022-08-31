@@ -5,7 +5,7 @@
     },
     "MongoDB": {
         "MONGO_URL": "",
-        "MONGO_COLLECTION" : ""
+        "COLLECTION_NAME" : ""
     },
     "Emoji": {
         "Check_Emoji_id": "",
