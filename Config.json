@@ -1,10 +1,10 @@
 {
     "Bot": {
-        "TOKEN": "",
-        "PREFIX": ""
+        "TOKEN": "MTAyNjUxMDU5MTEzMDYwMzU2Mg.GSk7E2.qAnMejjN-r-g1ifiybAtE4W8IgcUtl4yGQpc6Y",
+        "PREFIX": "$"
     },
     "MongoDB": {
-        "MONGO_URL": "",
+        "MONGO_URL": "mongodb+srv://Nikhil:<Nikhil@2311>@cluster0.gfxkdex.mongodb.net/?retryWrites=true&w=majority",
         "COLLECTION_NAME" : ""
     },
     "Emoji": {
@@ -24,7 +24,7 @@
         "BINANCE": "",
         "UPI": "",
         "normal": "",
-        "admin": "",
+        "admin": "837554511056470046",
         "del": "",
         "payment": "",
         "dance": "",
